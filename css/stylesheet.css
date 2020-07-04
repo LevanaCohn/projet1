@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    height: 100%;
+    font-weight: normal;
+  }
+  nav{
+    width: 100%;
+    background-color: rgb(22, 126, 126);
+  }
+  nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+  }
+  nav.menu li{
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+     
+   }
+   nav a{
+     display: inline-block;
+     text-decoration: none;
+     padding: 20px 30px;
+  color: blanchedalmond;
+   }
+   
+   nav .menu:hover{
+     border-top: coral 5px solid;
+     background-color: darkgoldenrod;
+   }
+   nav .menu a:hover{
+     padding: 15px 30px 20px 30px;
+   }
+  
+  
+  
+  
+  
+  .fleur{
+    color: coral;
+  display: flex ;
+  box-sizing: border-box;
+  padding: 3%;
+  grid-template-columns: 200px 1fr 200px;
+  padding: 45px;
+  width: 80%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 70px;
+      --spacce: 0;
+  }
+  p{
+    color: rgb(189, 163, 15);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .fleur1{
+    background-color: beige ;
+  }
+  .fleur2{
+    background-color: beige;
+  }
+  .fleur3{
+    background-color: beige;
+  }
+  .fleur4{
+    background-color: beige;
+  }
+  
+  h1{
+    color: rgb(4, 78, 7);
+  }
+  img{
+    width: 300px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  /* CSS */
+  .dropdown:hover > #cart-dropdown{
+    display: block;
+  }
+  
+  
+  
+  
+  
+  
+  
+  footer{
+    text-align: center;
+    background-color: rgb(22, 126, 126);
+    color: blanchedalmond;
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 18px;
+  }
+  .footer-bottom{
+    height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+    color: rgb(180, 201, 89);
+    font-size: 15px;
+  }
+  .footer-content{
+    border: coral 1px solid;
+    height: 300px;
+    display: flex;
+    color: white;
+  }
+  .footer-content .footer-section{
+    flex: 1;
+    border: white 1px solid;
+    padding: 25px;
+    flex: 1;
+  }
+  
+  .footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  .footer .footer-content .Links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 3.s;
+  }
+  .footer .footer-content .Links ul a:hover {
+    color: aliceblue;
+    margin-left: 15px;
+    transition: all 3.s;
+  }
+  .liste{
+    list-style-type: none;
+    text-decoration: rgb(192, 99, 117);
+  }
+  
